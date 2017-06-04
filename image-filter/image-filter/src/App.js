@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import ButtonDiv from './ButtonDiv';
 import logo from './logo.svg';
 import './App.css';
+
+import ArtBlock from './ArtBlock';
+
 
 class App extends Component {
   render() {
@@ -9,9 +13,8 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <p className="App-intro">
-        <button className="button">Search</button>
-        </p>
+          <ButtonDiv />
+          <ArtBlock />
       </div>
     );
   }
